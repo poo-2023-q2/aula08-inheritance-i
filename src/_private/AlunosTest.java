@@ -1,5 +1,8 @@
-package academico._private;
+package _private;
 
+/**
+ * Testing the creation of classes in the hierarchy.
+ */
 public class AlunosTest {
     public static void main(String[] args) {
         AlunoGrad a1 = new AlunoGrad();

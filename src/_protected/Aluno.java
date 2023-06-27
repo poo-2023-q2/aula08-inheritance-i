@@ -1,5 +1,8 @@
-package academico._protected;
+package _protected;
 
+/**
+ * The base class has protected properties.
+ */
 public class Aluno {
     protected String nome;
     protected String sobrenome;

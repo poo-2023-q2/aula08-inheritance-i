@@ -1,5 +1,10 @@
-package academico._default;
+package _default;
 
+/**
+ * The test class also has access to the base class
+ * default-modifier properties because it is also 
+ * in the same package as the base class.
+ */
 public class AlunosTest {
     public static void main(String[] args) {
         AlunoGrad a1 = new AlunoGrad();

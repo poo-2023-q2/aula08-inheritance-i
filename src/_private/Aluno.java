@@ -1,5 +1,11 @@
-package academico._private;
+package _private;
 
+/**
+ * The base class has private properties, which 
+ * will not be visible to no other class (even if
+ * the class is derived from the base class).
+ * 
+ */
 public class Aluno {
     private String nome;
     private String sobrenome;

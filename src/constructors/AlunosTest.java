@@ -1,7 +1,13 @@
-package academico.constructors;
+package constructors;
 
 import java.util.Calendar;
 
+/**
+ * The calls to the derived class constructor
+ * must include values for its own properties
+ * as well as for the properties of the base class.
+ * 
+ */
 public class AlunosTest {
     public static void main(String[] args) {
         Calendar calendar = Calendar.getInstance();

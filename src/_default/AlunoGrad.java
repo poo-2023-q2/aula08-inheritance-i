@@ -1,5 +1,10 @@
-package academico._default;
+package _default;
 
+/**
+ * Derived class, can access default-modified attributes
+ * in the base class, because it is the same package as 
+ * the base class.
+ */
 public class AlunoGrad extends Aluno {
     String curso;
 

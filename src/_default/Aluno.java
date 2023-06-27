@@ -1,5 +1,8 @@
-package academico._default;
+package _default;
 
+/**
+ * Base class, uses default modifiers on properties.
+ */
 public class Aluno {
     String nome;
     String sobrenome;

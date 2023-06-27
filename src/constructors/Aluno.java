@@ -1,7 +1,11 @@
-package academico.constructors;
+package constructors;
 
 import java.util.Date;
 
+/**
+ * The base class has a simple constructor
+ * to initialize its properties.
+ */
 public class Aluno {
     private String nome;
     private String sobrenome;
@@ -19,7 +23,7 @@ public class Aluno {
         return  "Nome: " + getNome() + "\n"
                 + "Sobrenome: " + getSobrenome() + "\n"
                 + "RA: " + getRa() + "\n"
-                + "Ingresso" + getDataIngresso().toString() + "\n";
+                + "Ingresso: " + getDataIngresso().toString() + "\n";
     }
 
     public String getNome() {

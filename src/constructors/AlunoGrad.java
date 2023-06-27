@@ -1,8 +1,15 @@
-package academico.constructors;
+package constructors;
 
-import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
+/**
+ * The derived class has a construtor that initialize
+ * both is its own properties and the properties
+ * of the base class.
+ * The first line of constructor must be a call to the
+ * base class constructor.
+ * 
+ */
 public class AlunoGrad extends Aluno {
     String curso;
 
@@ -13,12 +20,6 @@ public class AlunoGrad extends Aluno {
 
     public String toString() {
         return  super.toString()
-                + "Curso: " + curso + "\n"
-                + "Jubilou?: " + jubilou();
-    }
-
-    public boolean jubilou() {
-        return !getDataIngresso().toInstant()
-                .plus(10 * 365, ChronoUnit.DAYS).isAfter(new Date().toInstant());
+                + "Curso: " + curso + "\n";
     }
 }
